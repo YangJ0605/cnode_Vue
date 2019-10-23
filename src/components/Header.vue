@@ -1,7 +1,7 @@
 <template>
     <div class="header">
         <div class="header-inner">
-            <a href="/"><img src="../assets/cnodejs_light.svg" alt=""></a>
+            <router-link :to="{name:'root'}"> <img src="../assets/cnodejs_light.svg" alt=""></router-link> 
         <div class="nav">
             <ul>
             <li><a href="/">首页</a></li>
